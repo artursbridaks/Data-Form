@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Data Form</title>
+</head>
+<body>
+
+<div id="parent">
+    <strong id="header">Fill in the form:</strong><br><br>
+    <form id="form" method="post" onsubmit="popUp()">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email..."><br><br>
+        <label for="sum">Sum: </label>
+        <input type="number" id="sum" name="sum" placeholder="Enter the sum..."><br><br>
+        <button type="submit" value="submit" name="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
+
+<script>
+    function popUp() {
+        alert("The form is submitted");
+    }
+</script>
+
+<style>
+
+    #header {
+        position: relative;
+        left: 30%;
+    }
+
+    #parent {
+        border: solid gray 1px;
+        position: absolute;
+        top: 200px;
+        left: 520px;
+        width: 20%;
+        height: 140px;
+        padding: 20px;
+    }
+
+    #form {
+        text-align: center;
+    }
+</style>
+
