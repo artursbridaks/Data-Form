@@ -17,5 +17,3 @@ simulates an action of sending an email to the selected entry email.
 ###Commentary:
 
 Was following the instructions of the task the best of my current abilities. There definitely is a room for improvement.
-
-![](dating-app.gif)
